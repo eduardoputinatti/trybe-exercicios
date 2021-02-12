@@ -1,0 +1,21 @@
+div:hover{
+    border: 2px solid black;
+}
+#primario {
+    background-color: indigo;
+}
+#secundario{
+    background-color: rgb(46, 190, 46);
+}
+#complementar{
+    background-color: rgb(1, 97, 1);
+}
+#escuro{
+    background-color: rgb(0, 41, 0);
+}
+#claro{
+    background-color: rgb(0, 15, 0);
+}
+h3:active {
+    background-color: indigo;
+}
