@@ -1,1 +1,1 @@
-Pasta destinada a exercicios da Trybe.
+pasta destinada a exercicios da Trybe.
