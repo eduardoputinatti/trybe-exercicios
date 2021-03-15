@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Curriculum</h1>
+    </header>
+
+    <form action="" method="get">
+
+        <div>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label class="label" for="name">Nome Completo</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" maxlength="40" required><br>
+
+                <label class="label" for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" maxlength="50" required><br>
+
+                <label class="label" for="cpf">CPF</label>
+                <input type="number" name="cpf" id="cpf" placeholder="Digite seu cpf" maxlength="11" required><br>
+
+                <label class="label" for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereco" maxlength="200" required><br>
+
+                <label class="label" for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite seu nome" maxlength="28" required><br>
+
+                <p>Estado</p>
+                <select name="" id="estado" required>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select>
+
+            </fieldset>
+        </div>
+
+    </form>
+</body>
+</html>
